@@ -46,10 +46,13 @@ img {
 /* Page Header */
 
 .page-header .container {
-  border-bottom: 1px solid #e7e9fc;
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -92,6 +95,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts-list {
@@ -149,7 +154,7 @@ img {
   margin-top: 48px;
   margin-right: auto;
   margin-left: auto;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -269,15 +274,15 @@ img {
   color: #2e2f42;
 }
 
-.portfolio-descriotion-list {
+.portfolio-description-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.portfolio-descriotion-item {
-  flex-basis: calc((100%-16) / 3);
+.portfolio-description-item {
+  width: calc((100%-16) / 3);
 }
 
 .portfolio-card {
