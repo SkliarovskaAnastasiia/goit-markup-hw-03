@@ -169,7 +169,7 @@ img {
 /* Titles h2 */
 .features-title,
 .team-description-title,
-.portfolio-descriotion-title {
+.portfolio-description-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -282,7 +282,7 @@ img {
 }
 
 .portfolio-description-item {
-  width: calc((100%-16) / 3);
+  width: calc((100%-48px) / 3);
 }
 
 .portfolio-card {
