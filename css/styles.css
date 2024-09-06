@@ -78,6 +78,10 @@ button {
   gap: 0px;
 }
 
+.header-logo {
+  margin-right: 76px;
+}
+
 .nav-list {
   display: flex;
   align-items: flex-start;
@@ -89,7 +93,6 @@ button {
 
 .header-logo-accent {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .nav-link {
