@@ -14,6 +14,7 @@ ol {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
@@ -30,6 +31,10 @@ p {
 
 img {
   display: block;
+}
+
+button {
+  cursor: pointer;
 }
 
 .container {
@@ -55,6 +60,7 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 
 .logo {
@@ -70,7 +76,6 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
-  margin-right: 76px;
 }
 
 .nav-list {
@@ -79,11 +84,12 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  margin-right: 332px;
+  width: 261px;
 }
 
 .header-logo-accent {
   color: #2e2f42;
+  margin-right: 76px;
 }
 
 .nav-link {
@@ -145,7 +151,6 @@ img {
 
 .hero-section-button {
   background-color: #4d5ae5;
-  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -204,6 +209,10 @@ img {
   margin-bottom: 8px;
 }
 
+.features-item {
+  width: 264px;
+}
+
 .item-text {
   font-size: 16px;
   line-height: 1.5;
@@ -213,14 +222,6 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-}
-
-.features-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  flex-basis: calc((100%-72px) / 4);
 }
 
 /* Our Team */
@@ -321,5 +322,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  margin-top: 16px;
 }
